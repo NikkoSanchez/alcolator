@@ -39,17 +39,10 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rT6-UG-2b8">
-                                <rect key="frame" x="20" y="141" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="rT6-UG-2b8" firstAttribute="top" secondItem="RkP-FH-5XQ" secondAttribute="bottom" constant="15" id="1Eq-6G-3TH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zEJ-z2-8ep" secondAttribute="trailing" id="4HS-Ob-RwW"/>
                             <constraint firstItem="iV3-1A-X1Y" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="5ds-QM-gve"/>
                             <constraint firstItem="WmI-ZP-Omd" firstAttribute="leading" secondItem="RkP-FH-5XQ" secondAttribute="leading" id="N5L-Zc-hZc"/>

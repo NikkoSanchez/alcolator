@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RkP-FH-5XQ">
-                                <rect key="frame" x="241" y="96" width="119" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RkP-FH-5XQ">
+                                <rect key="frame" x="244" y="96" width="113" height="45"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <state key="normal" title="Calculate">
                                     <color key="titleColor" red="1" green="0.53659556557855426" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -33,14 +33,8 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="iV3-1A-X1Y">
                                 <rect key="frame" x="-2" y="58" width="604" height="31"/>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WmI-ZP-Omd">
-                                <rect key="frame" x="20" y="141" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rT6-UG-2b8">
-                                <rect key="frame" x="20" y="141" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WmI-ZP-Omd">
+                                <rect key="frame" x="244" y="156" width="113" height="26"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -49,17 +43,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="rT6-UG-2b8" firstAttribute="top" secondItem="RkP-FH-5XQ" secondAttribute="bottom" constant="15" id="1Eq-6G-3TH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zEJ-z2-8ep" secondAttribute="trailing" id="4HS-Ob-RwW"/>
                             <constraint firstItem="iV3-1A-X1Y" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="5ds-QM-gve"/>
                             <constraint firstItem="WmI-ZP-Omd" firstAttribute="leading" secondItem="RkP-FH-5XQ" secondAttribute="leading" id="N5L-Zc-hZc"/>
                             <constraint firstAttribute="leadingMargin" secondItem="WmI-ZP-Omd" secondAttribute="leading" constant="15" id="Xj6-cR-Iuw"/>
                             <constraint firstItem="WmI-ZP-Omd" firstAttribute="top" secondItem="RkP-FH-5XQ" secondAttribute="bottom" constant="15" id="Xuv-EL-0Sj"/>
                             <constraint firstItem="WmI-ZP-Omd" firstAttribute="leading" secondItem="RkP-FH-5XQ" secondAttribute="leading" id="Yos-Qj-exl"/>
+                            <constraint firstItem="WmI-ZP-Omd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="224" id="ZYH-cS-Bx1"/>
                             <constraint firstItem="iV3-1A-X1Y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="38" id="aj9-ue-xay"/>
                             <constraint firstItem="RkP-FH-5XQ" firstAttribute="top" secondItem="iV3-1A-X1Y" secondAttribute="bottom" constant="8" id="c3v-Zl-PgT"/>
                             <constraint firstItem="WmI-ZP-Omd" firstAttribute="leading" secondItem="RkP-FH-5XQ" secondAttribute="leading" id="cuH-mp-IOT"/>
+                            <constraint firstItem="WmI-ZP-Omd" firstAttribute="width" secondItem="RkP-FH-5XQ" secondAttribute="width" id="eFG-JZ-InR"/>
                             <constraint firstAttribute="leadingMargin" secondItem="zEJ-z2-8ep" secondAttribute="leading" id="fnN-m6-LOx"/>
+                            <constraint firstItem="WmI-ZP-Omd" firstAttribute="width" secondItem="RkP-FH-5XQ" secondAttribute="width" id="oAW-dI-PjC"/>
                             <constraint firstItem="iV3-1A-X1Y" firstAttribute="centerX" secondItem="zEJ-z2-8ep" secondAttribute="centerX" id="qt4-z6-0co"/>
                             <constraint firstItem="iV3-1A-X1Y" firstAttribute="top" secondItem="zEJ-z2-8ep" secondAttribute="bottom" constant="8" id="uuE-Ap-KAZ"/>
                             <constraint firstItem="zEJ-z2-8ep" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="vOL-q8-5TN"/>
@@ -69,8 +65,12 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="N5L-Zc-hZc"/>
+                                <exclude reference="Xj6-cR-Iuw"/>
                                 <exclude reference="Yos-Qj-exl"/>
+                                <exclude reference="ZYH-cS-Bx1"/>
                                 <exclude reference="cuH-mp-IOT"/>
+                                <exclude reference="oAW-dI-PjC"/>
+                                <exclude reference="xUj-uc-HY4"/>
                             </mask>
                         </variation>
                         <connections>
